@@ -7,10 +7,11 @@
 
 #include "Particle.h"
 
-namespace caveofprogramming {
+namespace particlesystem {
 class Swarm {
 public:
-  const static int NPARTICLES = 5000;
+    // ustalamy liczbę particles
+  const static int NPARTICLES = 2000;
   Swarm();
   ~Swarm();
   void update(int elapsed);
@@ -20,6 +21,6 @@ private:
   Particle *m_pParticles;
   int lastTime;
 };
-} // namespace caveofprogramming
+} // namespace particlesystem
 
 #endif // PARTICLES_SWARM_H

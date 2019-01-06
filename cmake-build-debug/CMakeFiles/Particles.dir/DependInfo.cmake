@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lw/Desktop/studia/Particles/Particle.cpp" "/home/lw/Desktop/studia/Particles/cmake-build-debug/CMakeFiles/Particles.dir/Particle.cpp.o"
-  "/home/lw/Desktop/studia/Particles/Screen.cpp" "/home/lw/Desktop/studia/Particles/cmake-build-debug/CMakeFiles/Particles.dir/Screen.cpp.o"
-  "/home/lw/Desktop/studia/Particles/Swarm.cpp" "/home/lw/Desktop/studia/Particles/cmake-build-debug/CMakeFiles/Particles.dir/Swarm.cpp.o"
-  "/home/lw/Desktop/studia/Particles/main.cpp" "/home/lw/Desktop/studia/Particles/cmake-build-debug/CMakeFiles/Particles.dir/main.cpp.o"
+  "/home/lw/Desktop/studia/Wybieralski Particle Sys/Particle.cpp" "/home/lw/Desktop/studia/Wybieralski Particle Sys/cmake-build-debug/CMakeFiles/Particles.dir/Particle.cpp.o"
+  "/home/lw/Desktop/studia/Wybieralski Particle Sys/Screen.cpp" "/home/lw/Desktop/studia/Wybieralski Particle Sys/cmake-build-debug/CMakeFiles/Particles.dir/Screen.cpp.o"
+  "/home/lw/Desktop/studia/Wybieralski Particle Sys/Swarm.cpp" "/home/lw/Desktop/studia/Wybieralski Particle Sys/cmake-build-debug/CMakeFiles/Particles.dir/Swarm.cpp.o"
+  "/home/lw/Desktop/studia/Wybieralski Particle Sys/main.cpp" "/home/lw/Desktop/studia/Wybieralski Particle Sys/cmake-build-debug/CMakeFiles/Particles.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -9,11 +9,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-using namespace caveofprogramming;
+using namespace particlesystem;
 int main(int argc, char *argv[]) {
 
   srand(time(NULL));
-  caveofprogramming::Screen screen;
+    particlesystem::Screen screen;
 
   if (screen.init() == false) {
     std::cout << "Error initialasing SDL";

@@ -4,7 +4,7 @@
 
 #include "Swarm.h"
 
-namespace caveofprogramming {
+namespace particlesystem {
 
 Swarm::Swarm() :lastTime(0) { m_pParticles = new Particle[NPARTICLES]; }
 
@@ -20,4 +20,4 @@ void Swarm::update(int elapsed) {
   lastTime=elapsed;
 }
 
-} // namespace caveofprogramming
+} // namespace particlesystem

@@ -4,14 +4,16 @@
 
 #include "Screen.h"
 
-namespace caveofprogramming {
+namespace particlesystem {
 
 Screen::Screen()
     : m_window(nullptr), m_renderer(nullptr), m_texture(nullptr),
       m_buffer1(nullptr), m_buffer2(nullptr) {}
 
-bool Screen::init() {
 
+      // inicjalizacja ekranu
+
+bool Screen::init() {
   if (SDL_Init(SDL_INIT_VIDEO) < 0) {
     return false;
   } // Initialize SDL2
@@ -43,6 +45,7 @@ bool Screen::init() {
     SDL_Quit();
     return false;
   }
+
   if (m_texture == nullptr) {
     std::cout << "Could not create texture" << std::endl;
     SDL_DestroyRenderer(m_renderer);
@@ -69,6 +72,7 @@ void Screen::update() {
   SDL_RenderPresent(m_renderer);
 }
 
+// kolorowanie
 void Screen::setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue) {
 
   if (x < 0 || x >= SCREEN_WIDTH || y < 0 || y >= SCREEN_HEIGHT) {
@@ -88,7 +92,10 @@ void Screen::setPixel(int x, int y, Uint8 red, Uint8 green, Uint8 blue) {
   m_buffer1[(y * SCREEN_WIDTH) + x] = color;
 }
 
+
+// rozmycie
 void Screen::boxBlur() {
+
   // swap buffers, pixel info is in mbuf2 and we are drawin to mbuf1
   Uint32 *temp = m_buffer1;
 
@@ -152,4 +159,4 @@ void Screen::close() {
   SDL_Quit();
 }
 
-} // namespace caveofprogramming
+} // namespace particlesystem

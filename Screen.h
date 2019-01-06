@@ -9,7 +9,7 @@
 #ifndef PARTICLES_SCREEN_H
 #define PARTICLES_SCREEN_H
 
-namespace caveofprogramming
+namespace particlesystem
 {
 
 class Screen {

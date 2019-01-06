@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/lw/Desktop/studia/Particles/cmake-build-debug"/>
+				<Option working_dir="/home/lw/Desktop/studia/Wybieralski Particle Sys/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/lw/Desktop/studia/Particles/cmake-build-debug"/>
+				<Option working_dir="/home/lw/Desktop/studia/Wybieralski Particle Sys/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Particles">
-				<Option output="/home/lw/Desktop/studia/Particles/cmake-build-debug/Particles" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lw/Desktop/studia/Particles/cmake-build-debug"/>
+				<Option output="/home/lw/Desktop/studia/Wybieralski Particle Sys/cmake-build-debug/Particles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lw/Desktop/studia/Wybieralski Particle Sys/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -45,15 +45,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 Particles"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 Particles"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Particles/fast">
-				<Option output="/home/lw/Desktop/studia/Particles/cmake-build-debug/Particles" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lw/Desktop/studia/Particles/cmake-build-debug"/>
+				<Option output="/home/lw/Desktop/studia/Wybieralski Particle Sys/cmake-build-debug/Particles" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lw/Desktop/studia/Wybieralski Particle Sys/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -69,45 +69,45 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 Particles/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 Particles/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/lw/Desktop/studia/Particles/cmake-build-debug"/>
+				<Option working_dir="/home/lw/Desktop/studia/Wybieralski Particle Sys/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Particles/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lw/Desktop/studia/Wybieralski\ Particle\ Sys/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lw/Desktop/studia/Particles/Particle.cpp">
+		<Unit filename="/home/lw/Desktop/studia/Wybieralski Particle Sys/Particle.cpp">
 			<Option target="Particles"/>
 		</Unit>
-		<Unit filename="/home/lw/Desktop/studia/Particles/Particle.h">
+		<Unit filename="/home/lw/Desktop/studia/Wybieralski Particle Sys/Particle.h">
 			<Option target="Particles"/>
 		</Unit>
-		<Unit filename="/home/lw/Desktop/studia/Particles/Screen.cpp">
+		<Unit filename="/home/lw/Desktop/studia/Wybieralski Particle Sys/Screen.cpp">
 			<Option target="Particles"/>
 		</Unit>
-		<Unit filename="/home/lw/Desktop/studia/Particles/Screen.h">
+		<Unit filename="/home/lw/Desktop/studia/Wybieralski Particle Sys/Screen.h">
 			<Option target="Particles"/>
 		</Unit>
-		<Unit filename="/home/lw/Desktop/studia/Particles/Swarm.cpp">
+		<Unit filename="/home/lw/Desktop/studia/Wybieralski Particle Sys/Swarm.cpp">
 			<Option target="Particles"/>
 		</Unit>
-		<Unit filename="/home/lw/Desktop/studia/Particles/Swarm.h">
+		<Unit filename="/home/lw/Desktop/studia/Wybieralski Particle Sys/Swarm.h">
 			<Option target="Particles"/>
 		</Unit>
-		<Unit filename="/home/lw/Desktop/studia/Particles/main.cpp">
+		<Unit filename="/home/lw/Desktop/studia/Wybieralski Particle Sys/main.cpp">
 			<Option target="Particles"/>
 		</Unit>
-		<Unit filename="/home/lw/Desktop/studia/Particles/CMakeLists.txt">
+		<Unit filename="/home/lw/Desktop/studia/Wybieralski Particle Sys/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
